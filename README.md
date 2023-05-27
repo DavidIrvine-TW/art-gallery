@@ -14,13 +14,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/screenshot.jpg)
+![](./assets/screenshot.JPG)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution](https://github.com/DavidIrvine-TW/art-gallery)
+- Live Site URL: [live site](https://davidirvine-tw.github.io/art-gallery/)
 
 ## My process
 
