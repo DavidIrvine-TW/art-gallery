@@ -1,0 +1,53 @@
+/* global */
+/*font-family: 'Big Shoulders Display', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap'); 
+/*font-family: 'Outfit', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+    /*fontfamily*/ 
+    $heading-family: 'Big Shoulders Display', cursive;
+    $body-family: 'Outfit', sans-serif;
+
+$colors: (
+    "clr-tanorange": hsl(24, 56%, 63%),
+    "clr-black":    hsl(0, 0%, 8%),
+    "clr-darkgrey": hsl(0, 0%, 27%),
+    "clr-white": hsl(0, 0%, 100%)
+);
+
+$font-sizes: (
+    "heading-xl": 6rem,
+    "heading-l": 4.375rem,
+    "heading-m": 3.75rem,
+    "heading-m-mob": 3.125rem,
+    "address-heading-mb": 2rem,
+    "heading-s": 2.25rem,
+    "body-m": 1.375rem,
+    "body-s": 1.125rem,
+
+
+    "button": 1.25rem
+ );
+
+$line-heights: (
+    "heading-xl" : 88px,
+    "heading-l": 70px,
+    "heading-l-tb": 65px,
+    "heading-m": 55px,
+    "heading-m-mob": 45px,
+    "heading-s": 36px,
+    "body-m": 32px,
+    "body-s": 28px,
+    "button": 24px
+);
+    
+
+@function lineHeight($line-name){
+    @return map-get($line-heights, $line-name )
+};
+@function fontSize($size-name){
+    @return map-get($font-sizes, $size-name)
+};
+@function color($color-name){
+    @return map-get($colors, $color-name)
+};

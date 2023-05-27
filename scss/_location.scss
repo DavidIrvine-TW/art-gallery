@@ -1,0 +1,150 @@
+
+//mobile - location page //
+
+.img-location-container {
+    position: relative;
+    
+   
+}
+
+
+#map {
+    min-width: 375px;
+    min-height: 550px;
+}
+
+#map:hover {
+    cursor: pointer;
+}
+
+.leaflet-tile {
+    filter: saturate(0%) !important;
+}
+
+.btn-home {
+    position: absolute;
+    z-index: 10000;
+}
+
+.address-section {
+    background: color(clr-black);
+    color: color(clr-white);
+    padding: 3rem 1rem;
+}
+
+.our-location-h1 {
+    margin-bottom: 3rem;
+}
+
+.address-text {
+    margin-bottom: 1.25rem;
+   
+    .king-street {
+        margin-bottom: 1.25rem;
+    }
+
+    .street-address {
+        font-size: fontSize(address-heading-mb);
+        font-weight: 900;
+        color: color(clr-tanorange);
+        font-family: $heading-family;
+        margin-bottom: 1.25rem;
+    }
+    
+    .address-details {
+        margin-bottom: 1.25rem;
+    }
+
+    .body-text {
+        text-align: left;
+        font-size: fontSize(body-s);
+        line-height: lineHeight(body-s);
+        color: color(clr-white);
+    }
+}
+
+#footer-location{
+    background: color(clr-tanorange);
+    padding: 3rem 2rem;
+   
+    .foot-logo {
+        width: 110px;
+        margin-bottom: 2.3rem;
+    }
+    .logo-footer-dark{
+        width: 100%;
+    }
+    .foot-text-location > p {
+        font-family: $body-family;
+        color: color(clr-black);
+        font-size: 1rem;
+        line-height: 26px;
+        font-weight: 300;
+        margin-bottom: 2.3rem;
+    }
+
+    .icon-location {
+        width: 20px;
+        -webkit-filter: invert(100%);
+    }
+
+}
+
+@media screen and (min-width: 760px){
+    .btn-home {
+        margin-left: 60px;
+        -webkit-transition: ease-out 0.9s;
+        -moz-transition: ease-out 0.9s;
+        transition: ease-out 0.9s;
+    }
+    .address-section {
+        padding: 5rem 2.5rem;
+       
+    }
+    .address-bar-black {
+        display: flex;
+        
+    }
+    .our-location-h1 {
+        margin-right: 4.25rem
+    }
+    .address-body-content {
+        width: 400px;
+    }
+
+    .foot-container-location {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .foot-text-location {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .btn-home {
+        margin-left: 160px;
+    }
+    .address-section {
+        padding: 7rem 10.3rem
+    }
+    .address-bar-black {
+        max-width: 1110px;
+        margin: auto;
+    }
+    
+
+    .address-body-content {
+        width: 540px;
+    }
+    .foot-container-location {
+        max-width: 1110px;
+        margin: auto;
+    }
+
+    .foot-text-location {
+        width: 430px;
+    }
+}
